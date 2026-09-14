@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: "sorinxv.github.io/published-obsidian",
+  baseUrl: "sorinxv.github.io/published-obsidian"
   ignorePatterns:
     - private
     - templates

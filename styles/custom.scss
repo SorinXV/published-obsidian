@@ -1,0 +1,29 @@
+// quartz/styles/custom.scss
+
+// Enforce JetBrains Mono globally
+body {
+  font-family: "JetBrains Mono", monospace !important;
+}
+
+// Center and constrain content width for a minimal aesthetic
+.center {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+// Style ASCII art blocks to preserve spacing and alignment
+pre code {
+  font-family: "JetBrains Mono", monospace;
+  background-color: transparent;
+  display: block;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
+// Minimalist clean horizontal rules
+hr {
+  border: none;
+  border-top: 1px dashed var(--gray);
+  margin: 2rem 0;
+}

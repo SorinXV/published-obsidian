@@ -23,6 +23,11 @@ jobs:
           fetch-depth: 0
           submodules: recursive
           token: ${{ secrets.ACTIONS_BOT_TOKEN }}
+          
+      - name: Fetch Latest Content Submodule
+        run: |
+          git submodule update --remote --merge content
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
